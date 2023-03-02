@@ -1,7 +1,6 @@
 # Desafio DEV QUEST - HTML5 + CSS3 Avançado
-## Frontend Mentor - Huddle landing page with single introductory section solution
 
-Exercício proposto pelo curso frontend DEV QUEST, baseado no desafio do site Frontend Mentor - [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). 
+Exercício proposto pelo curso frontend Dev Quest, baseado no desafio do site Frontend Mentor - [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). 
 
 ## Desafio
 
@@ -17,17 +16,17 @@ Mobile
 
 ![Mobile](./design/design-mobile.png)
 
-## Links
-
-- Deploy URL: https://your-live-site-url.com
-
-## Construído com
+## Tecnologias
 
 - HTML5
 - CSS3
 - Flexbox
 - Grid
 
-## Author
+## Deploy
+
+Para visualizar o projeto [clique aqui.](https://vitor-leal.github.io/quest-html-css-huddle-landing-page/)
+
+## Autor
 
 Vítor Leal
