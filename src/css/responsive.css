@@ -1,0 +1,31 @@
+@media (max-width: 376px) {
+    .container {
+        grid-template-areas: "header" 
+                             "mockup" 
+                             "info" 
+                             "footer";
+        grid-template-columns: 1fr;
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--violet);
+    }
+
+    .info .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info .infos h2 {
+        font-size: 2.5rem;
+    }
+
+    .info .infos p {
+        text-align: center;
+    }
+    
+    .footer {
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
