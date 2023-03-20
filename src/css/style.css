@@ -92,10 +92,11 @@ body {
     text-align: center;
 }
 
-.footer .social i {
-    font-size: 2rem;   
+.footer .social a:hover {
+    color: var(--soft-magenta);
+    border: 2px solid var(--soft-magenta);
 }
 
-.footer .social a:hover i {
-    color: var(--soft-magenta);
+.footer .social i {
+    font-size: 2rem;   
 }
