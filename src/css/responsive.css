@@ -1,12 +1,25 @@
-@media (max-width: 376px) {
+@media (max-width: 768px) {
     .container {
-        grid-template-areas: "header" 
-                             "mockup" 
-                             "info" 
-                             "footer";
+        grid-template-areas: "header"
+            "mockup"
+            "info"
+            "footer";
         grid-template-columns: 1fr;
-        background: url(../images/bg-mobile.svg) no-repeat;
-        background-color: var(--violet);
+    }
+
+    .header .logo img {
+        width: 70%;
+    }
+
+    .mockup img {
+        width: 80%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .info .infos {
@@ -23,9 +36,34 @@
     .info .infos p {
         text-align: center;
     }
-    
+
+    .info .infos .btn-register {
+        padding: 10px 70px;
+        font-size: 1.2rem;
+    }
+
     .footer {
         justify-content: center;
         margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 376px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--violet);
+    }
+
+    .header .logo img {
+        width: 50%;
+    }
+
+    .info .infos h2 {
+        font-size: 2rem;
+    }
+
+    .info .infos p {
+        font-size: 1.4rem;
     }
 }

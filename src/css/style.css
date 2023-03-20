@@ -7,6 +7,9 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     color: #FFF;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: var(--violet);
+    background-size: cover;
 }
 
 .container {
@@ -15,12 +18,13 @@ body {
                          "mockup info"
                          "footer footer";
     grid-template-columns: 1.3fr 1fr;
-    background: url(../images/bg-desktop.svg) no-repeat;
-    background-color: var(--violet);
-    background-size: cover;
-    min-height: 100vh;
     padding: 20px 40px;
     gap: 30px;
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -78,12 +82,19 @@ body {
 }
 
 .footer .social a {
-    margin: 20px;
+    display: inline-block;
+    color: #FFF;
+    margin: 8px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
 }
 
 .footer .social i {
-    font-size: 3rem;
-    color: #FFF;    
+    font-size: 2rem;   
 }
 
 .footer .social a:hover i {
