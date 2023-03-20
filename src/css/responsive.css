@@ -1,9 +1,9 @@
 @media (max-width: 768px) {
     .container {
         grid-template-areas: "header"
-            "mockup"
-            "info"
-            "footer";
+                             "mockup"
+                             "info"
+                             "footer";
         grid-template-columns: 1fr;
     }
 
